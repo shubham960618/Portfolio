@@ -1,0 +1,198 @@
+:root{
+    --poppins: 'ubuntu','Poppins', sans-serif;
+    --sans: 'Open Sans', sans-serif;
+    --green: #00abf0;
+    --black: #081b29;
+    --nero: #2f555a;
+    --transition: all 0.4s ease;
+    background-color: #081b29  ;
+}
+
+  .education-head{
+    padding: 5rem 0 2.5rem 0;
+}
+.education-head > .text{
+    width: 70%;
+    margin: 2rem auto;
+    text-align: center;
+}
+.education-head .row{
+    margin: 1rem 0;
+}
+
+.title{
+    position: relative;
+}
+.title > h2{
+    font-size: 3rem;
+    font-family: var(--ubuntu);
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 900;
+    color: var(--nero);
+}
+.title div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+.title div h2{
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-family: var(--poppins);
+    font-weight: 800;
+}
+.container{
+    width: 90vw;
+    margin: 0 auto;
+}
+.line-container{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10px;
+    /* background-color: #00abf0; */
+}
+
+.line{
+    /* margin: 5%; */
+    background: #fff;
+    height: 2px;
+    width: 80%;
+    border-radius: 50%;
+}
+
+.edu-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2%;
+    /* background: #fff; */
+    padding: 1%;
+}
+
+.graduation, .senior, .secondary{   
+    width: 30vw;
+    height: 100%;
+    height: 40vh;;
+    float: left;
+    color: #FFFFFF;
+    padding: 3%;
+    border-radius: 50px;
+    border: 3px solid #fff;
+    transition: all 0.4s ease;
+    transform: scale(1.05);
+    /* transition: transform ease-out 0.4s; */
+    
+}
+.graduation:hover{
+    border-radius: 150px 0 150px 0;
+    color:#081b29 ;
+    background: rgba(0, 171, 240, 1);
+    transition: all 0.4s ease;
+    transform: scale(1.05);
+    /* transform: rotate(90deg); */
+    box-shadow: 
+    0 0 10px rgba(0, 171, 240, 0.5), 
+    0 0 20px rgba(0, 171, 240, 0.5), 
+    0 0 30px rgba(0, 171, 240, 0.5), 
+    0 0 40px rgba(0, 171, 240, 0.5), 
+    0 0 50px rgba(0, 171, 240, 0.5), 
+    0 0 60px rgba(0, 171, 240, 0.5), 
+    0 0 70px rgba(0, 171, 240, 0.5);
+  }
+
+.secondary{   
+    width: 30vw;
+    height: 40vh;;
+    text-align: center;
+    float: right ;
+    overflow: hidden;
+    padding: 3%;
+}
+.secondary:hover{
+    border-radius: 150px 0 150px 0;
+    /* border-radius: 12px; */
+    color:#081b29 ;
+    background: #00abf0;
+    transition: all 0.4s ease;
+    transform: scale(1.05);
+    box-shadow: 
+    0 0 10px rgba(0, 171, 240, 0.5), 
+    0 0 20px rgba(0, 171, 240, 0.5), 
+    0 0 30px rgba(0, 171, 240, 0.5), 
+    0 0 40px rgba(0, 171, 240, 0.5), 
+    0 0 50px rgba(0, 171, 240, 0.5), 
+    0 0 60px rgba(0, 171, 240, 0.5), 
+    0 0 70px rgba(0, 171, 240, 0.5);
+}
+
+.lowerbox{
+    display: flex;
+    padding: 1%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2%;
+    /* background: #fff; */
+    align-items: center;
+    justify-content: center;
+}
+
+
+.senior{
+    width: 30vw;
+    height: 40vh;;
+    text-align: center;
+    float: right ;
+    overflow: hidden;
+    padding: 3%;
+
+}
+
+.senior:hover{
+    border-radius: 150px 0 150px 0;
+    /* border-radius: 12px; */
+    color:#081b29 ;
+    background: #00abf0;
+    transition: all 0.4s ease;
+    transform: scale(1.05);
+    box-shadow: 
+    0 0 10px rgba(0, 171, 240, 0.5), 
+    0 0 20px rgba(0, 171, 240, 0.5), 
+    0 0 30px rgba(0, 171, 240, 0.5), 
+    0 0 40px rgba(0, 171, 240, 0.5), 
+    0 0 50px rgba(0, 171, 240, 0.5), 
+    0 0 60px rgba(0, 171, 240, 0.5), 
+    0 0 70px rgba(0, 171, 240, 0.5);
+}
+
+h1{
+    margin: 3%;
+    font-size: 2rem;
+
+    text-align: left;
+    /* background-color: antiquewhite; */
+}
+h3{
+    margin: 1.5% 0 0 0;
+    /* font-size: 1.5rem; */
+    padding: 0 2%;
+    text-align: left;
+    color: #00abf0;
+}
+
+p{  
+    margin: 2%;
+    font-size: 0.8rem;
+    padding: 5% 5% 5% 0;
+    text-align: left;
+    /* background-color: aquamarine; */
+}
+
